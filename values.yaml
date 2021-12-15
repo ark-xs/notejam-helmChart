@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  name: mysqldb
+  repository: arkdocr/mysql-db
+
+
+service:
+  name: mysqldb-service
+  

@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  name: notejam-nodejs
+  repository: arkdocr/notejam-nodejs
+
+
+service:
+  type: LoadBalancer
+  name: nodejs-service
